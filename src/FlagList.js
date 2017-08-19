@@ -1,5 +1,5 @@
 // @flow
-import React from 'react';
+import React, { Component } from 'react';
 // $FlowFixMe - I broke flow modules -.-
 import styled from 'styled-components';
 
@@ -8,7 +8,6 @@ type Props = {
 };
 
 const FlagWrapper = styled.div`
-  border: 1px solid black;
   width: 300px;
   height: 200px;
 `;
@@ -19,16 +18,28 @@ const FlagListDiv = styled.div`
   flex-wrap: wrap;
 `;
 
-export default function FlagList(props: Props) {
-  const { children = [] } = props;
+class FlagList extends Component<Props> {
+  get children(): Array<Element> {
+    const { children = [] } = this.props;
 
-  return (
-    <FlagListDiv>
-      {children.map((child, index) => (
-        <FlagWrapper key={`flag-wrapper-${index}`}>
-          {child}
-        </FlagWrapper>
-      ))}
-    </FlagListDiv>
-  );
+    if (children instanceof Array) {
+      return children;
+    }
+
+    return [children];
+  }
+
+  render() {
+    return (
+      <FlagListDiv>
+        {this.children.map((child, index) => (
+          <FlagWrapper key={`flag-wrapper-${index}`}>
+            {child}
+          </FlagWrapper>
+        ))}
+      </FlagListDiv>
+    );
+  }
 }
+
+export default FlagList;

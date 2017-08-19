@@ -2,19 +2,12 @@
 import React from 'react';
 
 import FlagList from './FlagList';
+import Armenia from './Flags/Armenia';
 
 function App() {
   return (
     <FlagList>
-      <div>
-        This
-      </div>
-      <div>
-        is a
-      </div>
-      <div>
-        test
-      </div>
+      <Armenia />
     </FlagList>
   );
 }
