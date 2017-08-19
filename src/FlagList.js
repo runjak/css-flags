@@ -1,18 +1,19 @@
 // @flow
 import React from 'react';
-import { div as StyledDiv } from 'styled-components';
+// $FlowFixMe - I broke flow modules -.-
+import styled from 'styled-components';
 
 type Props = {
   children?: any;
 };
 
-const FlagWrapper = StyledDiv`
+const FlagWrapper = styled.div`
   border: 1px solid black;
   width: 300px;
   height: 200px;
 `;
 
-const FlagListDiv = StyledDiv`
+const FlagListDiv = styled.div`
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
