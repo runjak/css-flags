@@ -1,10 +1,20 @@
 import React from 'react';
 
+import FlagList from './FlagList';
+
 function App() {
   return (
-    <div className="App">
-      Kragen!
-    </div>
+    <FlagList>
+      <div>
+        This
+      </div>
+      <div>
+        is a
+      </div>
+      <div>
+        test
+      </div>
+    </FlagList>
   );
 }
 
