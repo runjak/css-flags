@@ -1,20 +1,24 @@
+// @flow
 import React from 'react';
+import { div as StyledDiv } from 'styled-components';
 
-import styled from 'styled-components';
+type Props = {
+  children?: any;
+};
 
-const FlagWrapper = styled.div`
+const FlagWrapper = StyledDiv`
   border: 1px solid black;
   width: 300px;
   height: 200px;
 `;
 
-const FlagListDiv = styled.div`
+const FlagListDiv = StyledDiv`
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
 `;
 
-export default function FlagList(props) {
+export default function FlagList(props: Props) {
   const { children } = props;
 
   if (!children) {
