@@ -20,13 +20,8 @@ const FlagListDiv = styled.div`
 `;
 
 export default function FlagList(props: Props) {
-  const { children } = props;
+  const { children = [] } = props;
 
-  if (!children) {
-    return null;
-  }
-
-  // eslint-disable-line react/no-array-index-key
   return (
     <FlagListDiv>
       {children.map((child, index) => (
