@@ -10,6 +10,9 @@ type Props = {
 const FlagWrapper = styled.div`
   width: 300px;
   height: 200px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border: 1px solid black;
 `;
 
 const FlagListDiv = styled.div`
