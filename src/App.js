@@ -24,6 +24,7 @@ import Italy from './Flags/Italy';
 import IvoryCoast from './Flags/IvoryCoast';
 import Latvia from './Flags/Latvia';
 import Lithuania from './Flags/Lithuania';
+import Luxembourg from './Flags/Luxembourg';
 
 function App() {
   return (
@@ -50,6 +51,7 @@ function App() {
       <IvoryCoast />
       <Latvia />
       <Lithuania />
+      <Luxembourg />
     </FlagList>
   );
 }
