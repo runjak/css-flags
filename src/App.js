@@ -11,6 +11,7 @@ import Chad from './Flags/Chad';
 import Colombia from './Flags/Colombia';
 import Congo from './Flags/Congo';
 import CostaRica from './Flags/CostaRica';
+import Estonia from './Flags/Estonia';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
       <Colombia />
       <Congo />
       <CostaRica />
+      <Estonia />
     </FlagList>
   );
 }
