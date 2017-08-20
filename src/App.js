@@ -16,6 +16,7 @@ import France from './Flags/France';
 import Gabon from './Flags/Gabon';
 import Gambia from './Flags/Gambia';
 import Germany from './Flags/Germany';
+import Guinea from './Flags/Guinea';
 
 function App() {
   return (
@@ -34,6 +35,7 @@ function App() {
       <Gabon />
       <Gambia />
       <Germany />
+      <Guinea />
     </FlagList>
   );
 }
