@@ -33,6 +33,7 @@ import Nigeria from './Flags/Nigeria';
 import Peru from './Flags/Peru';
 import Poland from './Flags/Poland';
 import Romania from './Flags/Romania';
+import Russia from './Flags/Russia';
 
 function App() {
   return (
@@ -68,6 +69,7 @@ function App() {
       <Peru />
       <Poland />
       <Romania />
+      <Russia />
     </FlagList>
   );
 }
