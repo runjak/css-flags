@@ -12,6 +12,7 @@ import Colombia from './Flags/Colombia';
 import Congo from './Flags/Congo';
 import CostaRica from './Flags/CostaRica';
 import Estonia from './Flags/Estonia';
+import France from './Flags/France';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
       <Congo />
       <CostaRica />
       <Estonia />
+      <France />
     </FlagList>
   );
 }
