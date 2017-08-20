@@ -18,6 +18,7 @@ import Gambia from './Flags/Gambia';
 import Germany from './Flags/Germany';
 import Guinea from './Flags/Guinea';
 import Hungary from './Flags/Hungary';
+import Indonesia from './Flags/Indonesia';
 
 function App() {
   return (
@@ -38,6 +39,7 @@ function App() {
       <Germany />
       <Guinea />
       <Hungary />
+      <Indonesia />
     </FlagList>
   );
 }
