@@ -20,6 +20,7 @@ import Guinea from './Flags/Guinea';
 import Hungary from './Flags/Hungary';
 import Indonesia from './Flags/Indonesia';
 import Ireland from './Flags/Ireland';
+import Italy from './Flags/Italy';
 
 function App() {
   return (
@@ -42,6 +43,7 @@ function App() {
       <Hungary />
       <Indonesia />
       <Ireland />
+      <Italy />
     </FlagList>
   );
 }
