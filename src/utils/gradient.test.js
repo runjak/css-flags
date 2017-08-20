@@ -14,4 +14,11 @@ describe('gradient()', () => {
 
     expect(actual).toBe(expected);
   });
+
+  it('should compute with proportions', () => {
+    const actual = gradient(['foo', 'bar', 'baz'], [1, 1, 2]);
+    const expected = 'foo 0%, foo 25%, bar 25%, bar 50%, baz 50%, baz 100%';
+
+    expect(actual).toBe(expected);
+  });
 });
