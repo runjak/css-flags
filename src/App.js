@@ -13,6 +13,7 @@ import Congo from './Flags/Congo';
 import CostaRica from './Flags/CostaRica';
 import Estonia from './Flags/Estonia';
 import France from './Flags/France';
+import Gabon from './Flags/Gabon';
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
       <CostaRica />
       <Estonia />
       <France />
+      <Gabon />
     </FlagList>
   );
 }
