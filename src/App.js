@@ -38,6 +38,7 @@ import SierraLeone from './Flags/SierraLeone';
 import Tanzania from './Flags/Tanzania';
 import Thailand from './Flags/Thailand';
 import TrinidadAndTobago from './Flags/TrinidadAndTobago';
+import Ukraine from './Flags/Ukraine';
 
 function App() {
   return (
@@ -78,6 +79,7 @@ function App() {
       <Tanzania />
       <Thailand />
       <TrinidadAndTobago />
+      <Ukraine />
     </FlagList>
   );
 }
