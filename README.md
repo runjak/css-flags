@@ -1,5 +1,7 @@
 # Css Flags
 
+![Build status](https://travis-ci.org/runjak/css-flags.svg?branch=master)
+
 Inspired by
 * https://codepen.io/thebabydino/post/css-the-world-flags
 * https://codepen.io/thebabydino/post/challenge-css-the-world-flags-level-2
