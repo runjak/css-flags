@@ -34,6 +34,7 @@ import Peru from './Flags/Peru';
 import Poland from './Flags/Poland';
 import Romania from './Flags/Romania';
 import Russia from './Flags/Russia';
+import SierraLeone from './Flags/SierraLeone';
 
 function App() {
   return (
@@ -70,6 +71,7 @@ function App() {
       <Poland />
       <Romania />
       <Russia />
+      <SierraLeone />
     </FlagList>
   );
 }
