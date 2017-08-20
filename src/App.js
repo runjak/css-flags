@@ -27,6 +27,7 @@ import Lithuania from './Flags/Lithuania';
 import Luxembourg from './Flags/Luxembourg';
 import Mali from './Flags/Mali';
 import Mauritius from './Flags/Mauritius';
+import Monaco from './Flags/Monaco';
 
 function App() {
   return (
@@ -56,6 +57,7 @@ function App() {
       <Luxembourg />
       <Mali />
       <Mauritius />
+      <Monaco />
     </FlagList>
   );
 }
