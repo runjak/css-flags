@@ -21,6 +21,7 @@ import Hungary from './Flags/Hungary';
 import Indonesia from './Flags/Indonesia';
 import Ireland from './Flags/Ireland';
 import Italy from './Flags/Italy';
+import IvoryCoast from './Flags/IvoryCoast';
 
 function App() {
   return (
@@ -44,6 +45,7 @@ function App() {
       <Indonesia />
       <Ireland />
       <Italy />
+      <IvoryCoast />
     </FlagList>
   );
 }
