@@ -9,6 +9,7 @@ import Botswana from './Flags/Botswana';
 import Bulgaria from './Flags/Bulgaria';
 import Chad from './Flags/Chad';
 import Colombia from './Flags/Colombia';
+import Congo from './Flags/Congo';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Bulgaria />
       <Chad />
       <Colombia />
+      <Congo />
     </FlagList>
   );
 }
