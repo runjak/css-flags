@@ -31,6 +31,7 @@ import Monaco from './Flags/Monaco';
 import Netherlands from './Flags/Netherlands';
 import Nigeria from './Flags/Nigeria';
 import Peru from './Flags/Peru';
+import Poland from './Flags/Poland';
 
 function App() {
   return (
@@ -64,6 +65,7 @@ function App() {
       <Netherlands />
       <Nigeria />
       <Peru />
+      <Poland />
     </FlagList>
   );
 }
