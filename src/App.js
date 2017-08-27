@@ -85,6 +85,10 @@ function App() {
         <Ukraine />
         <Yemen />
       </FlagList>
+      <h1>Level 2</h1>
+      <FlagList>
+        test
+      </FlagList>
     </div>
   );
 }
