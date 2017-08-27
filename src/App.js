@@ -43,46 +43,49 @@ import Yemen from './Flags/Yemen';
 
 function App() {
   return (
-    <FlagList>
-      <Armenia />
-      <Austria />
-      <Belgium />
-      <Botswana />
-      <Bulgaria />
-      <Chad />
-      <Colombia />
-      <Congo />
-      <CostaRica />
-      <Estonia />
-      <France />
-      <Gabon />
-      <Gambia />
-      <Germany />
-      <Guinea />
-      <Hungary />
-      <Indonesia />
-      <Ireland />
-      <Italy />
-      <IvoryCoast />
-      <Latvia />
-      <Lithuania />
-      <Luxembourg />
-      <Mali />
-      <Mauritius />
-      <Monaco />
-      <Netherlands />
-      <Nigeria />
-      <Peru />
-      <Poland />
-      <Romania />
-      <Russia />
-      <SierraLeone />
-      <Tanzania />
-      <Thailand />
-      <TrinidadAndTobago />
-      <Ukraine />
-      <Yemen />
-    </FlagList>
+    <div>
+      <h1>Level 1</h1>
+      <FlagList>
+        <Armenia />
+        <Austria />
+        <Belgium />
+        <Botswana />
+        <Bulgaria />
+        <Chad />
+        <Colombia />
+        <Congo />
+        <CostaRica />
+        <Estonia />
+        <France />
+        <Gabon />
+        <Gambia />
+        <Germany />
+        <Guinea />
+        <Hungary />
+        <Indonesia />
+        <Ireland />
+        <Italy />
+        <IvoryCoast />
+        <Latvia />
+        <Lithuania />
+        <Luxembourg />
+        <Mali />
+        <Mauritius />
+        <Monaco />
+        <Netherlands />
+        <Nigeria />
+        <Peru />
+        <Poland />
+        <Romania />
+        <Russia />
+        <SierraLeone />
+        <Tanzania />
+        <Thailand />
+        <TrinidadAndTobago />
+        <Ukraine />
+        <Yemen />
+      </FlagList>
+    </div>
   );
 }
 
