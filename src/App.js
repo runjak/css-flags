@@ -1,6 +1,7 @@
 // @flow
 import React from 'react';
 
+// Level 1 flags:
 import FlagList from './FlagList';
 import Armenia from './Flags/Armenia';
 import Austria from './Flags/Austria';
@@ -40,6 +41,9 @@ import Thailand from './Flags/Thailand';
 import TrinidadAndTobago from './Flags/TrinidadAndTobago';
 import Ukraine from './Flags/Ukraine';
 import Yemen from './Flags/Yemen';
+
+// Level 2 flags:
+import Bahamas from './Flags/Bahamas';
 
 function App() {
   return (
@@ -87,7 +91,7 @@ function App() {
       </FlagList>
       <h1>Level 2</h1>
       <FlagList>
-        test
+        <Bahamas />
       </FlagList>
     </div>
   );
